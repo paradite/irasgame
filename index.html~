@@ -1,0 +1,83 @@
+<html>
+<head>
+
+    <title>Tax Jump</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, target-densitydpi=device-dpi" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.0.1.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile.simpledialog.css" /> 
+
+<script type="text/javascript" src="js/jquery-1.6.4.js"></script> 
+<script type="text/javascript" src="js/jquery.busy.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.0.1.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.simpledialog2.js"></script>
+<script type="text/javascript" src="js/high.js"></script> 
+
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript" src="js/highlight.pack.js"></script>                                   <!-- PRETTIFY -->
+<script type="text/javascript" src="js/kickstart.js"></script>                                  <!-- KICKSTART -->
+<script type="text/javascript" src="js/sha1.js"></script>                                  <!-- SHA1 -->
+<script type="text/javascript" src="js/utf8.js"></script>                                  <!-- UTF8 FOR SHA1 -->
+<script type="text/javascript" src="js/flyjsonp.min.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+
+	<style>
+		#canvas2
+		{
+		position:absolute;
+		top:0px;
+		margin:0 auto;
+		}
+		.nocursor { cursor:url(img/techcursor.cur), auto;}
+
+		body {
+
+
+			margin:0px;
+			padding:0px;
+			text-align:center;
+		}
+		#savespacew{
+		position: absolute;
+		left: 49%;
+		width:22px;
+		top:225px;
+		margin:0 auto;
+		background:url(img/busy.gif) no-repeat center center;
+		height:22px;
+
+}
+
+			margin:0 auto;
+			position:absolute;
+			top:225px;
+		}	
+		#canvas{
+			margin:0 auto;
+		}
+	</style>
+</head>
+<body>
+
+
+
+
+<div class="ui-content ui-body-c" data-theme="c">
+
+<div id="savespacew" style="display: none;" >
+</div>
+<div id="savespacem" ></div>
+<div id="savespacec" ></div>
+<div id="savespacen" ></div>
+<div id="savespace2"></div>
+<div id="savespace3"></div>
+<div id="savespacer" ></div>
+<canvas id='canvas' class="nocursor"></canvas>
+
+</div>
+<script src="game.js"></script>
+</body>
+</html>

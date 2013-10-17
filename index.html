@@ -1,0 +1,83 @@
+<html>
+<head>
+<!--
+by Michal Budzynski
+http://michalbe.blogspot.com
+http://twitter.com/michalbe
+-->
+
+<!--
+This tutorial templete is adopted by Zhu Liang, ACJC Tech Council for IRAS Game Development Competition
+-->
+
+    <title>Tax Jump</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.0.1.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile.simpledialog.css" /> 
+
+
+
+	<style>
+
+		.nocursor { cursor:url(img/cursor.gif), auto;}
+
+		body {
+			margin:0px;
+			padding:0px;
+			text-align:center;
+		}
+		#savespacew{
+		position: absolute;
+		left: 49%;
+		width:22px;
+		top:225px;
+		margin:0 auto;
+		background:url(img/busy.gif) no-repeat center center;
+		height:22px;
+
+}
+
+		}	
+		#canvas{
+			margin:0 auto;
+		}
+	</style>
+</head>
+<body>
+
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script> 
+<script type="text/javascript" src="js/jquery.busy.min.js"></script>
+<script src="game.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.1.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.simpledialog2.js"></script>
+
+
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="js/highlight.pack.js"></script>                                   <!-- PRETTIFY -->
+<script type="text/javascript" src="js/kickstart.js"></script>                                  <!-- KICKSTART -->
+<script type="text/javascript" src="js/sha1.js"></script>                                  <!-- SHA1 -->
+<script type="text/javascript" src="js/utf8.js"></script>                                  <!-- UTF8 FOR SHA1 -->
+<script type="text/javascript" src="js/flyjsonp.min.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+
+
+
+<div id="main" class="ui-content ui-body-c" data-theme="c">
+<div id="savespacew" style="display: none;" ></div>
+<div id="savespacem" ></div>
+<div id="savespacec" ></div>
+<div id="savespacen" ></div>
+<div id="savespace2"></div>
+<div id="savespace3"></div>
+<div id="savespacer" ></div>
+</div>
+<canvas id='canvas' class="nocursor"></canvas>
+
+
+
+</body>
+</html>
